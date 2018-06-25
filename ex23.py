@@ -1,24 +1,22 @@
-print ("Let's practice everything")
-print('You \'d need to know \'bout escapes with \\ that do:')
-print('\n newlines and \t tabs')
-poem ="""
-\t The lovely world
-with logic so firmly planted
-cannot discern \n the needs of love
-nor comprenhend passion from intution 
-and requires an explantion
+import sys
+script,encoding,error=sys.argv
 
-\n\t\wher ther is none
-"""
-print("--------")
-print(poem)
-print("-----")
-five=10-2=3-6
-print(f"This should be five"{fivve}")
-        def secret_formula(started):
-        jelly_beans=started*500
-        jars=jelly_beans,jars,creates
-        start_point=10000
-        beans,jars,creates=secret_formula(start_point)
-        print("With a starting point of :{}" .format(start_point))
+def main(language_file,encoding,errors):
+    line=language_file.readline()
 
+    if line:
+        print_line(line,encoding,errors)
+        return main(language_file,encoding,errors)
+
+
+def print_line(line,encoding,errors):
+    next_lang=line.strip()
+    raw_bytes=next_lang.encode(encoding,errors=errors)
+    cooked_string=raw_bytes.decode(encoding,errors=errors
+
+print(raw_bytes, "<===>",cooked_string)
+
+
+languages=open("languages.txt",encoding="utf-8")
+
+main(languages,encoding,error)
