@@ -1,17 +1,26 @@
-ten_things="Apple Oranges Crows Telephones  Light Sugar"
-print ("Wait there are not 10 things in that list .Let's fix that ")
-stuff =ten _things.split(' ')
-more_stuff=["Day","Night ","Song","Frisbee",
-        "Corn","Banana" "Girl","Boys"]
-while len(stuff)!=10:
-    next_one=more_stuff.pop()
-    print("Adding",next_one)
-    stuff.append(next_one)
-    print(f"There are len(stuff)} items now")
-    print("There wwe go " ,stuff)
-    print("Let's do something with stuff")
-    print(stuff[1])
-    print(stuff[-1])print(stuff.pop())
-    print(''.join(stuff))
-    print('#'.join(stuff[3:5]))
+the_count=[1,2,3,4,5]
+fruits=['apples','oranges','pears','apricots']
+change=[1,'pennies',2,'dimes',3,'quarters']
 
+#this first kind of for_loop goes through a list 
+for number in the_count:
+    print(f"This is count {number}")
+
+    #same as above
+    for fruit in fruits:
+        print(f"A fruit of type:{fruit}")
+
+        #also we can go through mixed lists too
+        #notice we have to use {} since we don't know what's in it 
+        for i in change:
+            print(f"I got {i})
+            #we can also build lists,frist start with an empty one
+            elements=[]
+            #then use the range function to do 0 to 5 counts
+            print(f"Adding {i} to the list.")
+            #append is a function that lists understand
+            elements.append(i)
+
+            #now we can print them out too
+            for i in elements:
+            print(f"Element was:{i}")
