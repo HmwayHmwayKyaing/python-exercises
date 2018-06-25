@@ -1,20 +1,20 @@
-print("""You enter a dark room with two doors.Do you  go through door #1 or door #2?""")
-door =inpput(">")
-if door=="1"
-print("Ther's a gaint bear here eating a cheese cake")
-print("What do you do")
-print("1.Take the cake.")
-print("2.Scram at the bear")
-bear =inpput(">")
-if bear=="1"
-print("The bear eats your face off.Good job!")
-elif bear =="2"
-print("Well,doing {bear} is probally beter")
-print("Bear runs away")
-elif door=="2"
-print("You stare into the endlss abyss at Cthulhu's retina")
-print("1.Bluebarries")
-print("2.Yellow jacket clothespins")
-print("3.Understanding resolvers yelling melodies")
-insanity =input(">")
-
+True and True
+False and True
+1==1 and 2==1
+"test"=="test"
+1==1 or 2!=1
+True and 1==1
+False and 0 !=0
+True or 1==1
+"test"=="testion"
+1!=0 and 2==1
+"test" !="testing"
+"test"==1
+not(True and False)
+not(1==1 and 0!=1)
+not(10==1 or 1000==1000)
+not(1 !=10 or 3==4)
+not("testing"=="testing" and "Zed"=="Cool Guy")
+1==1 and(not("testing"==1 or 1==0))
+"chunky"=="bacon"and(not(3==4 or 3==3))
+3==3 and (not ("testing"=="testing"or "Python"=="Fun"
